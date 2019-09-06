@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #262626;
+  color: #ffffff;
+  list-style: none;
+}
+.App-logo {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.page {
+  background: rgb(72, 44, 156);
+  background: linear-gradient(
+    61deg,
+    rgba(72, 44, 156, 1) 26%,
+    rgba(0, 192, 255, 1) 68%
+  );
+}
+.container {
+  max-width: 728px;
+  width: calc(100% - 50px);
+  margin: 0 auto;
+}
+.page_content {
+  background-image: url(./img/Rainbow-Vortex.svg);
+  margin-bottom: 56px;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
+}
