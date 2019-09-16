@@ -3,6 +3,7 @@ import About from './pageComponents/about';
 import Folio from './pageComponents/folio';
 import Nav from './pageComponents/nav';
 import Home from './pageComponents/home';
+import SvgOpt from './pageComponents/svgopt';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/folio" component={Folio} />
+            <Route path="/svgopt" component={SvgOpt} />
           </Switch>
         </div>
       </div>
