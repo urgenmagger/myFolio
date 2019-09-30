@@ -8,10 +8,11 @@ function MyTemplate(props) {
       <div className="container">
         <div className="page_content">
           <h2>{props.content.rubric}</h2>
+          <img className="imgsvg" src={props.content.image} alt="" />
           <div class="page_oriview">
             <h3>Обзор</h3>
             <p>
-              <div>{props.content.content}</div>
+              {props.content.content}>
             </p>
             <Link to={props.content.path}>
               <li>{props.content.linkButton}</li>

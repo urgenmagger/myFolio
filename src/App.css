@@ -12,6 +12,7 @@ nav {
   list-style: none;
 }
 .App-logo {
+  margin: 5px;
   display: flex;
   width: 100px;
   justify-content: space-around;
@@ -38,9 +39,30 @@ nav {
   margin: 0 auto;
 }
 .page_content {
-  background: rgb(72, 44, 156);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0 28px;
+  background: #fff;
   margin-bottom: 56px;
   padding: 28px;
   border-radius: 16px;
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
+}
+.page_content h2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.imgsvg {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
+  border-radius: 16px;
+  border: 6px solid #fefefe;
+}
+.page_oriview {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: rgb(72, 44, 156);
 }

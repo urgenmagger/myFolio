@@ -1,8 +1,9 @@
+
 const pageContent = [
     {
       id: 1,
       rubric: 'ПРОСТОЙ ОПТИМИЗАТОР ДЛЯ SVG PATH',
-      image: 'url',
+      image: require("../img/example.svg"),
       content:'Данная оптимизация целесообразна в случае избыточного кода после точки в координатах path. В основном такой код получается при работе с редактором Inkscape (в Inkscape нужно также нажать кнопочку "упростить" или Ctrl+L, без этого бывают непредсказуемые результаты), в Adobe Illustrator после точки наблюдал два знака, оптимизировать можно на 3-8%.',
   
       preview:'link from github and button',
