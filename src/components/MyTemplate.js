@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css'; //..level up
 import {Link} from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
 function MyTemplate(props) {
   return (
@@ -11,11 +12,11 @@ function MyTemplate(props) {
           <img className="imgsvg" src={props.content.image} alt="" />
           <div class="page_oriview">
             <h3>Обзор</h3>
-            <p>
-              {props.content.content}>
-            </p>
+            <p>{props.content.content}></p>
             <Link to={props.content.path}>
-              <li>{props.content.linkButton}</li>
+              <Button variant="contained" color="primary">
+                <li>{props.content.linkButton}</li>
+              </Button>
             </Link>
           </div>
         </div>
