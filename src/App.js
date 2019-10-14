@@ -17,7 +17,8 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/folio" component={Folio} />
-            <Route path="/svgopt" component={SvgOpt} />
+            <Route path="/svg_opt" render={() => <SvgOpt state={SvgOpt} />}
+            />
           </Switch>
         </div>
       </div>

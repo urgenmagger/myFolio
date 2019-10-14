@@ -5,12 +5,6 @@ import Button from '@material-ui/core/Button';
 //import pageContent from '../content/pageContent.js';
 
 function MyTemplate(props) {
-  //const tech = pageContent.technologies.map(items => (
-  //<ul>
-  //<li>{items}</li>
-  //console.log(items);
-  //</ul>
-  //));
   return (
     <div>
       <div className="container">

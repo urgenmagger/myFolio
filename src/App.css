@@ -37,7 +37,6 @@ nav {
   background: #2ee5e5;
   margin-bottom: 56px;
   padding: 28px;
-  /*border-radius: 16px;*/
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
 }
 .page_content h2 {
@@ -45,8 +44,6 @@ nav {
   /*grid-column-end: 4;*/
 }
 .imgsvg {
-  /*grid-column-start: 1;*/
-  /*grid-column-end: 4;*/
   width: 100%;
   margin-bottom: 16px;
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
@@ -57,9 +54,12 @@ nav {
   display: grid;
   align-items: center;
   grid-template-columns: 2fr 1fr;
-  /*grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));*/
+  /*grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));*/
   color: #fff;
   background: #262626;
+}
+@media all and (max-width: 575px) {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));
 }
 .left_side {
   grid-column-start: 1;
