@@ -15,11 +15,18 @@ function MyTemplate(props) {
             <div className="left_side">
               <h3>Обзор</h3>
               <p>{props.content.content}></p>
-              <Link to={props.content.path}>
+              <a href={props.content.path}>
                 <Button variant="contained" color="primary" size="large">
                   {props.content.linkButton}
                 </Button>
-              </Link>
+              </a>
+              {/*
+               *<Link to={props.content.path}>
+               *  <Button variant="contained" color="primary" size="large">
+               *    {props.content.linkButton}
+               *  </Button>
+               *</Link>
+               */}
               <p> technologies: {props.content.technologies}</p>
             </div>
             <div className="note">
