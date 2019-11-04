@@ -26,7 +26,7 @@ nav {
   list-style: none;
 }
 .page {
-  background: #334f4e;
+  background: #48484b;
 }
 .container {
   max-width: 728px;
@@ -34,12 +34,13 @@ nav {
   margin: 0 auto;
 }
 .page_content {
-  background: #72926f;
+  background: #1d1d21;
   margin-bottom: 56px;
   padding: 28px;
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
 }
 .page_content h2 {
+  text-color:#fff;
 }
 .imgsvg {
   width: 100%;

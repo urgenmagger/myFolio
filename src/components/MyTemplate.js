@@ -9,9 +9,12 @@ function MyTemplate(props) {
     <div>
       <div className="container">
         <div className="page_content">
+          <div className="icons">
+          <img className="top" src={props.content.topIcons} alt="" />
+          </div>
           <h2>{props.content.rubric}</h2>
           <img className="imgsvg" src={props.content.image} alt="" />
-          <div class="page_oriview">
+          <div className="page_oriview">
             <div className="left_side">
               <h3>Обзор</h3>
               <p>{props.content.content}></p>

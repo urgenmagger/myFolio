@@ -7,6 +7,7 @@ function folio() {
   const content = pageContent.map(item =>( 
     <MyTemplate key={item.id} content={item} />
   ));
+
   return (
     <div>
       <h1>Folio Page</h1>
