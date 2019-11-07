@@ -4,10 +4,9 @@ import pageContent from '../content/pageContent.js';
 import MyTemplate from '../components/MyTemplate.js';
 
 function folio() {
-  const content = pageContent.map(item =>( 
+  const content = pageContent.map(item => (
     <MyTemplate key={item.id} content={item} />
   ));
-
   return (
     <div>
       <h1>Folio Page</h1>
