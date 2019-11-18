@@ -5,12 +5,18 @@ import Button from '@material-ui/core/Button';
 //import pageContent from '../content/pageContent.js';
 
 function MyTemplate(props) {
+  const pr = props.content.topIcons;
+  const fr = pr.map(i => (
+    console.log(i.icon)
+  ))
+  //console.log(fr);
   return (
     <div>
       <div className="container">
         <div className="page_content">
           <div className="icons">
-            <img className="top" src={props.content.topIcons} alt="" />
+            {/*<img className="top" src={pr[1].icon} alt="" />*/}
+            <img className="top"  alt="" />
           </div>
           <h2>{props.content.rubric}</h2>
           <img className="imgsvg" src={props.content.image} alt="" />

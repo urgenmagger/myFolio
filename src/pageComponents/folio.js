@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 import pageContent from '../content/pageContent.js';
+import folioContent from '../content/folioContent.js';
 import MyTemplate from '../components/MyTemplate.js';
 
 function folio() {
-  const content = pageContent.map(item => (
+  const content = folioContent.map(item => (
     <MyTemplate key={item.id} content={item} />
   ));
   return (
