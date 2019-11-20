@@ -11,8 +11,9 @@ const folioContent = [
     note: 'pet project изначально был сделан для собстевнных нужд',
     technologies: ['jQuery', 'regular expressions'],
     topIcons: [
-      {id: 1, icon: require('../img/example.svg')},
+      {id: 1, icon: require('../img/jq.svg')},
       {id: 2, icon: require('../img/j_opt.svg')},
+      {id: 3, icon: require('../img/j_opt.svg')},
     ],
   },
   {
@@ -25,7 +26,7 @@ const folioContent = [
     linkButton: 'DEMO',
     note: 'pet project изначально был сделан для собстевнных нужд',
     technologies: ['jQuery', 'regular expressions'],
-    topIcons: [
+    topIcons: jq[
       {id: 1, icon: require('../img/j_opt.svg')},
       {id: 2, icon: require('../img/r_e.svg')},
     ],
