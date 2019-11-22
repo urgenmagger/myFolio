@@ -5,21 +5,24 @@ import Button from '@material-ui/core/Button';
 //import pageContent from '../content/pageContent.js';
 
 function MyTemplate(props) {
-  const pr = props.content.topIcons;
-  const fr = pr.map(i => (
+  const handlerIcons = props.content.topIcons;
+  const handlerTech = props.content.technologies;
+  const icons = handlerIcons.map(i => (
     <li key={i.id}>
       <img className="top" src={i.icon} alt="" />
     </li>
   ));
+  const tech = handlerTech.map(i => <div key={i.id}>{i.tech}</div>);
+
   return (
     <div>
       <div className="container">
         <div className="page_content">
           <div className="icons">
-            <li>{fr}</li>
+            <li>{icons}</li>
           </div>
           <h2>{props.content.rubric}</h2>
-    {/*<img className="imgsvg" src={props.content.image} alt="" />*/}
+          {/*<img className="imgsvg" src={props.content.image} alt="" />*/}
           <div className="page_oriview">
             <div className="left_side">
               <h3>Обзор</h3>
@@ -36,7 +39,7 @@ function MyTemplate(props) {
                *  </Button>
                *</Link>
                */}
-              <p> technologies: {props.content.technologies}</p>
+              <p> technologies: {tech}</p>
             </div>
             <div className="note">
               <p>{props.content.note}</p>

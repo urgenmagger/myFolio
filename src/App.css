@@ -49,6 +49,12 @@ nav {
   border-radius: 16px;
   border: 6px solid #fefefe;
 }
+.icons lI{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3px;
+  list-style-type: none;
+}
 
 .page_oriview {
   display: grid;
