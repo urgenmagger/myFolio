@@ -33,6 +33,10 @@ nav {
   width: calc(100% - 50px);
   margin: 0 auto;
 }
+.container h2 {
+  color: #fff;
+  border-bottom: 2px solid #503134;
+}
 .page_content {
   background: #1d1d21;
   margin-bottom: 56px;
@@ -40,7 +44,7 @@ nav {
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
 }
 .page_content h2 {
-  text-color:#fff;
+  text-color: #fff;
 }
 .imgsvg {
   width: 100%;
@@ -49,7 +53,7 @@ nav {
   border-radius: 16px;
   border: 6px solid #fefefe;
 }
-.icons lI{
+.icons li {
   display: flex;
   flex-wrap: wrap;
   padding-left: 3px;
@@ -61,12 +65,22 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(1fr, 100px));
   text-align: left;
   color: #fff;
-  background: #4d6d6b;
+  /*background: #4d6d6b;*/
 }
 .left_side {
   padding: 5px;
   margin-left: auto;
-  background-color: #969ea2;
+  /*background-color: #969ea2;*/
+}
+.left_side h3 {
+  color: #503134;
+}
+.technologies li {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3px;
+  list-style-type: none;
+
 }
 .note {
   text-align: left;
