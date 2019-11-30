@@ -15,7 +15,11 @@ function MyTemplate(props) {
     </li>
   ));
 
-  const tech = handlerTech.map(i => <div key={i.id}>{i.tech}</div>);
+  const tech = handlerTech.map(i => (
+    <div key={i.id}>
+      <li>{i.tech}</li>
+    </div>
+  ));
 
   //Castom button
   const MyButton = styled(Button)({
@@ -38,27 +42,36 @@ function MyTemplate(props) {
           <h2>{props.content.rubric}</h2>
           {/*<img className="imgsvg" src={props.content.image} alt="" />*/}
           <div className="page_oriview">
-            <div className="left_side">
-              <h3>Обзор</h3>
-              <p>{props.content.content}></p>
-              <a href={props.content.path}>
-                <MyButton>{props.content.linkButton}</MyButton>
-              </a>
-              {/*
-               *<Link to={props.content.path}>
-               *  <Button variant="contained" color="primary" size="large">
-               *    {props.content.linkButton}
-               *  </Button>
-               *</Link>
-               */}
-              <div className="technologies">
-                technologies:
-                <li> {tech}</li>
-              </div>
+            <h3>Обзор</h3>
+            <p>{props.content.content}></p>
+            <ul className="review_project">
+              <li>
+                <a href={props.content.path}>
+                  <MyButton>{props.content.linkButton}</MyButton>
+                </a>
+              </li>
+              <li>
+                <a href="#url">
+                  <img src={props.content.iconSource} alt="" />
+                  <span>{props.content.textSource}</span>
+                </a>
+              </li>
+            </ul>
+
+            {/*
+             *<Link to={props.content.path}>
+             *  <Button variant="contained" color="primary" size="large">
+             *    {props.content.linkButton}
+             *  </Button>
+             *</Link>
+             */}
+            <div className="technologies">
+              <strong>technologies:</strong>
+              <li> {tech}</li>
             </div>
-            <div className="note">
-              <p>{props.content.note}</p>
-            </div>
+          </div>
+          <div className="note">
+            <p>{props.content.note}</p>
           </div>
         </div>
       </div>

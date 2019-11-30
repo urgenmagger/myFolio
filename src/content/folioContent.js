@@ -8,6 +8,8 @@ const folioContent = [
     preview: 'link from github and button',
     path: 'https://urgenmagger.github.io/svg_optim/',
     linkButton: 'DEMO',
+    iconSource: require('../img/github_logo.svg'),
+    textSource: 'посмотреть код',
     note: 'pet project изначально был сделан для собстевнных нужд',
     technologies: [{id: 1, tech: 'jQuery,   '}, {id: 2, tech: 'regular expressions'}],
     topIcons: [
@@ -24,7 +26,7 @@ const folioContent = [
     path: 'https://urgenmagger.github.io/svg_optim/',
     linkButton: 'DEMO',
     note: 'pet project изначально был сделан для собстевнных нужд',
-    technologies: ['jQuery', 'regular expressions'],
+    technologies: [{id: 1, tech: 'RaphaelJS'}, {id: 2, tech: 'jQury'}],
     topIcons: [
       {id: 1, icon: require('../img/j_opt.svg')},
       {id: 2, icon: require('../img/r_e.svg')},

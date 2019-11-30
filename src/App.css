@@ -62,10 +62,23 @@ nav {
 
 .page_oriview {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 100px));
   text-align: left;
   color: #fff;
   /*background: #4d6d6b;*/
+}
+.review_project {
+  display: flex;
+  align-items: center;
+}
+.review_project li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.review_project li a img {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
 }
 .left_side {
   padding: 5px;
@@ -75,16 +88,14 @@ nav {
 .left_side h3 {
   color: #503134;
 }
-.technologies li {
+.technologies {
   display: flex;
-  flex-wrap: wrap;
   padding-left: 3px;
   list-style-type: none;
-
 }
 .note {
+  display: grid;
   text-align: left;
-  border: 2px dashed #e6e6e6;
-  border-radius: 16px;
-  background-color: #95a787;
+  border: 4px solid #46464a;
+  background-color: #212126;
 }
