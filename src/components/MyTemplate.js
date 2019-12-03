@@ -3,7 +3,6 @@ import '../App.css'; //..level up
 //import {Link} from 'react-router-dom';
 import {styled} from '@material-ui/styles';
 import Button from '@material-ui/core/Button';
-//import pageContent from '../content/pageContent.js';
 
 function MyTemplate(props) {
   const handlerIcons = props.content.topIcons;
@@ -17,7 +16,9 @@ function MyTemplate(props) {
 
   const tech = handlerTech.map(i => (
     <div key={i.id}>
-      <li>{i.tech}</li>
+      <ul>
+        <li>{i.tech}</li>
+      </ul>
     </div>
   ));
 
@@ -27,9 +28,9 @@ function MyTemplate(props) {
     order: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    color: '#000',
+    color: '#FFD7AF',
     height: 48,
-    padding: '0 30px',
+    padding: '0 20px',
   });
 
   return (
@@ -37,7 +38,7 @@ function MyTemplate(props) {
       <div className="container">
         <div className="page_content">
           <div className="icons">
-            <li>{icons}</li>
+            <ul>{icons}</ul>
           </div>
           <h2>{props.content.rubric}</h2>
           {/*<img className="imgsvg" src={props.content.image} alt="" />*/}
@@ -47,7 +48,10 @@ function MyTemplate(props) {
             <ul className="review_project">
               <li>
                 <a href={props.content.path}>
-                  <MyButton>{props.content.linkButton}</MyButton>
+                  {/*<MyButton>{props.content.linkButton}</MyButton>*/}
+               <Button variant="contained" color="primary" size="large">
+                 {props.content.linkButton}
+               </Button>
                 </a>
               </li>
               <li>
@@ -67,7 +71,7 @@ function MyTemplate(props) {
              */}
             <div className="technologies">
               <strong>technologies:</strong>
-              <li> {tech}</li>
+              <div>{tech}</div>
             </div>
           </div>
           <div className="note">

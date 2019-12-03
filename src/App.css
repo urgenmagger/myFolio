@@ -1,3 +1,6 @@
+ul {
+  padding: 0; /* Убираем поля */
+}
 .App {
   text-align: center;
 }
@@ -53,11 +56,13 @@ nav {
   border-radius: 16px;
   border: 6px solid #fefefe;
 }
-.icons li {
+.icons ul {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 3px;
   list-style-type: none;
+}
+.icons ul li {
+  padding-left: 3px;
 }
 
 .page_oriview {
@@ -68,17 +73,30 @@ nav {
 }
 .review_project {
   display: flex;
-  align-items: center;
-}
-.review_project li {
-  display: flex;
   list-style-type: none;
   align-items: center;
+}
+
+.review_project li {
+  margin-left: 0px;
+}
+.review_projectli: first-child {
+  margin-left: 0px;
 }
 .review_project li a img {
+  margin-left: 0px;
+  align-items: center;
+}
+.review_project li a {
   display: flex;
   list-style-type: none;
+  margin-left: 0px;
+}
+.review_project li span {
+  list-style-type: none;
+  margin-left: 0px;
   align-items: center;
+  color: #fff;
 }
 .left_side {
   padding: 5px;
