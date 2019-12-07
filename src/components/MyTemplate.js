@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css'; //..level up
 //import {Link} from 'react-router-dom';
-import {styled} from '@material-ui/styles';
 import Button from '@material-ui/core/Button';
 
 function MyTemplate(props) {
@@ -15,23 +14,10 @@ function MyTemplate(props) {
   ));
 
   const tech = handlerTech.map(i => (
-    <div key={i.id}>
-      <ul>
-        <li>{i.tech}</li>
-      </ul>
-    </div>
+    <li key={i.id}>
+        {i.tech}
+    </li>
   ));
-
-  //Castom button
-  const MyButton = styled(Button)({
-    background: '#A87952',
-    order: 0,
-    borderRadius: 3,
-    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    color: '#FFD7AF',
-    height: 48,
-    padding: '0 20px',
-  });
 
   return (
     <div>
@@ -41,21 +27,23 @@ function MyTemplate(props) {
             <ul>{icons}</ul>
           </div>
           <h2>{props.content.rubric}</h2>
-          {/*<img className="imgsvg" src={props.content.image} alt="" />*/}
           <div className="page_oriview">
             <h3>Обзор</h3>
             <p>{props.content.content}></p>
             <ul className="review_project">
               <li>
                 <a href={props.content.path}>
-                  {/*<MyButton>{props.content.linkButton}</MyButton>*/}
-               <Button variant="contained" color="primary" size="large">
-                 {props.content.linkButton}
-               </Button>
+                  <Button
+                    className="main-button"
+                    variant="contained"
+                    color="primary"
+                    size="large">
+                    {props.content.linkButton}
+                  </Button>
                 </a>
               </li>
               <li>
-                <a href="#url">
+                <a href="https://github.com/urgenmagger/svg_optim">
                   <img src={props.content.iconSource} alt="" />
                   <span>{props.content.textSource}</span>
                 </a>
@@ -71,7 +59,7 @@ function MyTemplate(props) {
              */}
             <div className="technologies">
               <strong>technologies:</strong>
-              <div>{tech}</div>
+              <ul>{tech}</ul>
             </div>
           </div>
           <div className="note">

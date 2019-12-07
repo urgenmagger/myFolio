@@ -56,6 +56,9 @@ nav {
   border-radius: 16px;
   border: 6px solid #fefefe;
 }
+.main-button {
+  background-color: #a87952 !important;
+}
 .icons ul {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +81,7 @@ nav {
 }
 
 .review_project li {
-  margin-left: 0px;
+  padding-left: 20px;
 }
 .review_projectli: first-child {
   margin-left: 0px;
@@ -90,13 +93,14 @@ nav {
 .review_project li a {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
   margin-left: 0px;
 }
 .review_project li span {
+  padding-left: 12px;
   list-style-type: none;
-  margin-left: 0px;
-  align-items: center;
-  color: #fff;
+  color: #773f44;
+  font-style: italic;
 }
 .left_side {
   padding: 5px;
@@ -109,7 +113,15 @@ nav {
 .technologies {
   display: flex;
   padding-left: 3px;
+  align-items: center;
+}
+.technologies ul {
+  padding-left: 5px;
+}
+.technologies li {
   list-style-type: none;
+  display: inline;
+
 }
 .note {
   display: grid;
