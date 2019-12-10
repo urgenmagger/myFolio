@@ -14,7 +14,7 @@ const folioContent = [
     technologies: [{id: 1, tech: 'jQuery,   '}, {id: 2, tech: 'regular expressions'}],
     topIcons: [
       {id: 1, icon: require('../img/jq.svg')},
-      {id: 2, icon: require('../img/j_opt.svg')},
+      {id: 2, icon: require('../img/r_e_white.svg')},
     ],
   },
   {
