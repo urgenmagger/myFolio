@@ -13,11 +13,7 @@ function MyTemplate(props) {
     </li>
   ));
 
-  const tech = handlerTech.map(i => (
-    <li key={i.id}>
-        {i.tech}
-    </li>
-  ));
+  const tech = handlerTech.map(i => <li key={i.id}>{i.tech}</li>);
 
   return (
     <div>
@@ -29,7 +25,8 @@ function MyTemplate(props) {
           <h2>{props.content.rubric}</h2>
           <div className="page_oriview">
             <h3>Обзор</h3>
-            <p>{props.content.content}></p>
+            <p>{props.content.content}</p>
+            <a href={props.content.linkDetail}>{props.content.detail}</a>
             <ul className="review_project">
               <li>
                 <a href={props.content.path}>
