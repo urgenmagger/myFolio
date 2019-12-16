@@ -40,7 +40,7 @@ function MyTemplate(props) {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/urgenmagger/svg_optim">
+                <a href={props.content.linkSource}>
                   <img src={props.content.iconSource} alt="" />
                   <span>{props.content.textSource}</span>
                 </a>

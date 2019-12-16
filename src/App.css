@@ -78,6 +78,12 @@ nav {
   color: #773f44;
   font-size: 20px;
 }
+.page_oriview a:hover {
+  color: #000;
+}
+.page_oriview a {
+  text-decoration: none;
+}
 .review_project {
   display: flex;
   list-style-type: none;
@@ -100,6 +106,9 @@ nav {
   list-style-type: none;
   text-decoration: none;
   margin-left: 0px;
+}
+.review_project li a:hover {
+  opacity: 0.8;
 }
 .review_project li span {
   padding-left: 12px;
