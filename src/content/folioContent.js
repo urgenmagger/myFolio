@@ -8,7 +8,8 @@ const folioContent = [
     path: 'https://urgenmagger.github.io/svg_optim/',
     linkButton: 'DEMO',
     detail: 'подробнее',
-    linkDetail: 'https://github.com/urgenmagger/svg_optim/blob/master/README.md',
+    linkDetail:
+      'https://github.com/urgenmagger/svg_optim/blob/master/README.md',
     linkSource: 'https://github.com/urgenmagger/svg_optim',
     iconSource: require('../img/github_logo.svg'),
     textSource: 'посмотреть код',
@@ -31,8 +32,10 @@ const folioContent = [
     path: 'https://github.com/urgenmagger/JavaCourse',
     linkButton: 'DEMO',
     detail: 'подробнее',
-    linkDetail: 'https://github.com/urgenmagger/JavaCourse/blob/master/README.md',
-    linkSource: 'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
+    linkDetail:
+      'https://github.com/urgenmagger/JavaCourse/blob/master/README.md',
+    linkSource:
+      'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
     iconSource: require('../img/github_logo.svg'),
     textSource: 'посмотреть код',
     note: 'разработка велась в рамках обучающего курса',
@@ -40,6 +43,30 @@ const folioContent = [
       {id: 1, tech: 'Java,\u00A0'},
       {id: 2, tech: 'Maven,\u00A0 '},
       {id: 3, tech: 'JUnit'},
+    ],
+    topIcons: [
+      {id: 1, icon: require('../img/java_icon.svg')},
+      {id: 2, icon: require('../img/r_e.svg')},
+    ],
+  },
+  {
+    id: 3,
+    rubric: 'SPA приложение',
+    content: 'Web приложение для портфолио',
+    preview: 'link from github and button',
+    path: 'https://github.com/urgenmagger/JavaCourse',
+    linkButton: 'DEMO',
+    detail: 'подробнее',
+    linkDetail:
+      'https://github.com/urgenmagger/JavaCourse/blob/master/README.md',
+    linkSource:
+      'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
+    iconSource: require('../img/github_logo.svg'),
+    textSource: 'посмотреть код',
+    note: 'разработка велась в рамках обучающего курса',
+    technologies: [
+      {id: 1, tech: 'React,\u00A0'},
+      {id: 2, tech: 'Redux,\u00A0 '},
     ],
     topIcons: [
       {id: 1, icon: require('../img/java_icon.svg')},

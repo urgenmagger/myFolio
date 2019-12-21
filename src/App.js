@@ -3,6 +3,7 @@ import About from './pageComponents/about';
 import Folio from './pageComponents/folio';
 import Nav from './pageComponents/nav';
 import Home from './pageComponents/home';
+import Footer from './pageComponents/footer';
 import SvgOpt from './pageComponents/svgopt';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/svg_opt" render={() => <SvgOpt state={SvgOpt} />} />
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );
