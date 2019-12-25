@@ -7,17 +7,19 @@ function nav() {
   return (
     <nav>
       <div className="container">
-        <Link to="/">
-          <img src={logo} className="App-logo" alt="logo" />
-        </Link>
-        <ul className="nav-links">
-          <Link to="/about">
-            <li>About</li>
+        <div className="container-grid">
+          <Link to="/">
+            <img src={logo} className="App-logo" alt="logo" />
           </Link>
-          <Link to="/folio">
-            <li>Folio</li>
-          </Link>
-        </ul>
+          <ul className="nav-links">
+            <Link to="/about">
+              <li>About</li>
+            </Link>
+            <Link to="/folio">
+              <li>Folio</li>
+            </Link>
+          </ul>
+        </div>
       </div>
     </nav>
   );

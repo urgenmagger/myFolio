@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import folioContent from '../content/folioContent.js';
-import MyTemplate from '../components/MyTemplate.js';
 
 function folio() {
   return (
