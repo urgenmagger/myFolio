@@ -4,13 +4,12 @@ import folioContent from '../content/folioContent.js';
 import MyTemplate from '../components/MyTemplate.js';
 
 function folio() {
-  const content = folioContent.map(item => (
-    <MyTemplate key={item.id} content={item} />
-  ));
   return (
     <div>
       <h1>Folio Page</h1>
-      {content}
+    <p>
+      Sit magni soluta illo nulla harum. Rem possimus culpa totam voluptate tenetur libero, autem! Dicta provident ipsam quas in consequatur nobis? Neque dicta qui voluptates assumenda nihil ad? Impedit soluta quaerat numquam dolorem magnam Totam tempore odit velit mollitia corporis iusto! Sed numquam tempora at perferendis distinctio. Perspiciatis qui alias!
+    </p>
     </div>
   );
 }
