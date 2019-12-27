@@ -18,6 +18,7 @@ nav {
 .App-logo {
   grid-column-start: 1;
   grid-column-end: 1;
+  color: red;
   margin: 5px;
   display: flex;
   width: 100px;
@@ -27,11 +28,15 @@ nav {
 .nav-links {
   grid-column-start: 2;
   grid-column-end: 3;
-  width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+.nav-links a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #773f44;
 }
 .page {
   background: #48484b;
@@ -45,10 +50,19 @@ nav {
   color: #fff;
   border-bottom: 2px solid #503134;
 }
+.about_content {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: #1d1d21;
+  margin-bottom: 56px;
+  padding: 28px;
+  color:#fff;
+  text-align: left;
+}
 .page_content {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background: #1d1d21;
   margin-bottom: 56px;
+  margin-top: 50px;
   padding: 28px;
 }
 .page_content h2 {
@@ -60,6 +74,10 @@ nav {
   box-shadow: 0 6px 10px 6px rgba(64, 64, 64, 0.16);
   border-radius: 16px;
   border: 6px solid #fefefe;
+}
+.nav svg {
+  width: 100px;
+  height: 100px;
 }
 .main-button {
   background-color: #a87952 !important;

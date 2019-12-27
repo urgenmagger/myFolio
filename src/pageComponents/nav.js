@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import logo from '../img/logo.svg';
+import Logo from '../img/logo.jsx';
 import {Link} from 'react-router-dom';
 
 function nav() {
@@ -9,7 +10,7 @@ function nav() {
       <div className="container">
         <div className="container-grid">
           <Link to="/">
-            <img src={logo} className="App-logo" alt="logo" />
+            <Logo color="#a87952" size = {80}/>
           </Link>
           <ul className="nav-links">
             <Link to="/about">
