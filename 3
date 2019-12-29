@@ -7,7 +7,7 @@ ul {
 }
 
 nav {
-  background: linear-gradient(120deg, #293230, #1d1d21);
+  background-color: #212126;
   color: #ffffff;
   list-style: none;
   padding: 50px 0px;
@@ -19,19 +19,19 @@ nav {
 .nav_img {
   grid-column-start: 1;
   grid-column-end: 1;
+
 }
 .nav_info {
   grid-column-start: 2;
-  grid-column-end: 4;
-}
-.nav_info p {
-  text-align: left;
-  margin-left: 20px;
+  grid-column-end: 3;
+  align-self: center;
+
 }
 .App-logo {
   color: red;
   margin: 5px;
   display: flex;
+  width: 100px;
   justify-content: space-around;
 }
 
@@ -48,13 +48,12 @@ nav {
 .nav_social {
   display: flex;
   margin-top: 16px;
-  margin-left: -16px;
-  padding: 16px;
+  padding: 10px;
   list-style-type: none;
   text-decoration: none;
 }
 .nav_social li {
-  margin-left: 21px;
+  margin-left: 10px;
 }
 .nav_social svg {
   color: #a87952;
@@ -251,19 +250,5 @@ nav {
   }
   .technologies li {
     margin-bottom: 2px;
-  }
-  .nav_img {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .nav_info {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .nav_social {
-    display:flex;
-    margin: 0;
-    justify-content: center;
-
   }
 }
