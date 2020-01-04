@@ -22,16 +22,18 @@ function nav() {
               <Link to="/about">
                 <li>About</li>
               </Link>
-              <Link to="/folio">
-                <li>Folio</li>
+              <Link to="/">
+                <li>Home</li>
               </Link>
             </ul>
             <h1>Привет ворлд...</h1>
             <p>
               Я Евгений, друзья зовут меня Urgen. Это мое первое SPA написаное с
-              нуля на React JS. Вобщем lorem ipsum друзья.
+              нуля на React JS. Вобщем lorem ipsum товарищи.
             </p>
-            <p>Эй, сей веселей, вправо сей, влево сей… (АБС)</p>
+            <p>
+              <em>Эй, сей веселей, вправо сей, влево сей… (АБС)</em>
+            </p>
             <ul className="nav_social">
               <li>
                 <a href="https://www.linkedin.com/in/evgen-megger-5aa783125/">

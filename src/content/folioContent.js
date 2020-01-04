@@ -46,7 +46,6 @@ const folioContent = [
     ],
     topIcons: [
       {id: 1, icon: require('../img/java_icon.svg')},
-      {id: 2, icon: require('../img/r_e.svg')},
     ],
   },
   {
@@ -57,10 +56,8 @@ const folioContent = [
     path: 'https://github.com/urgenmagger/JavaCourse',
     linkButton: 'DEMO',
     detail: 'подробнее',
-    linkDetail:
-      'https://github.com/urgenmagger/JavaCourse/blob/master/README.md',
-    linkSource:
-      'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
+    linkDetail: 'https://github.com/urgenmagger/folio/blob/master/README.md',
+    linkSource: 'https://github.com/urgenmagger/folio',
     iconSource: require('../img/github_logo.svg'),
     textSource: 'посмотреть код',
     note: 'разработка велась в рамках обучающего курса',
@@ -69,8 +66,8 @@ const folioContent = [
       {id: 2, tech: 'Redux,\u00A0 '},
     ],
     topIcons: [
-      {id: 1, icon: require('../img/java_icon.svg')},
-      {id: 2, icon: require('../img/r_e.svg')},
+      {id: 2, icon: require('../img/redux.svg')},
+      {id: 1, icon: require('../img/react.svg')},
     ],
   },
 ];
