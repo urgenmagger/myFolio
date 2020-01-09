@@ -18,14 +18,6 @@ function nav() {
             </Link>
           </div>
           <div className="nav_info">
-            <ul className="nav-links">
-              <Link to="/about">
-                <li>About</li>
-              </Link>
-              <Link to="/home">
-                <li>Home</li>
-              </Link>
-            </ul>
             <h1>Привет ворлд...</h1>
             <p>
               Я Евгений, друзья зовут меня Urgen. Это мое первое SPA написаное с
@@ -34,6 +26,14 @@ function nav() {
             <p>
               <em>Эй, сей веселей, вправо сей, влево сей… (АБС)</em>
             </p>
+            <ul className="nav-links">
+              <Link to="/about">
+                <li><strong>About</strong></li>
+              </Link>
+              <Link to="/home">
+                <li><strong>Home</strong></li>
+              </Link>
+            </ul>
             <ul className="nav_social">
               <li>
                 <a href="https://www.linkedin.com/in/evgen-megger-5aa783125/">

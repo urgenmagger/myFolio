@@ -29,13 +29,13 @@ const folioContent = [
     content:
       'Приложение tracker (создание, удаление, редактирование, добавление заявок. Применины основные принципы ООП, а также паттерны проектирования(Декоратор, Стратегия))',
     preview: 'link from github and button',
-    path: 'https://github.com/urgenmagger/JavaCourse',
+    path: 'https://www.youtube.com/watch?v=mLO1js8lgvQ',
     linkButton: 'DEMO',
     detail: 'подробнее',
     linkDetail:
       'https://github.com/urgenmagger/JavaCourse/blob/master/README.md',
     linkSource:
-      'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
+    'https://github.com/urgenmagger/JavaCourse/tree/master/chapter_002/src/main/java/ru/job4j/tracker',
     iconSource: require('../img/github_logo.svg'),
     textSource: 'посмотреть код',
     note: 'разработка велась в рамках обучающего курса',
@@ -53,14 +53,14 @@ const folioContent = [
     rubric: 'SPA приложение',
     content: 'Web приложение для портфолио',
     preview: 'link from github and button',
-    path: 'https://github.com/urgenmagger/JavaCourse',
+    path: 'https://urgenmagger.github.io/myFolio/#/',
     linkButton: 'DEMO',
     detail: 'подробнее',
     linkDetail: 'https://github.com/urgenmagger/folio/blob/master/README.md',
     linkSource: 'https://github.com/urgenmagger/folio',
     iconSource: require('../img/github_logo.svg'),
     textSource: 'посмотреть код',
-    note: 'разработка велась в рамках обучающего курса',
+    note: 'проект собран для портфолио',
     technologies: [
       {id: 1, tech: 'React,\u00A0'},
       {id: 2, tech: 'Redux,\u00A0 '},
