@@ -51,7 +51,7 @@ const folioContent = [
   {
     id: 3,
     rubric: 'SPA приложение',
-    content: 'Web приложение для портфолио',
+    content: 'Web приложение для портфолио, динамическое использование карточек, проект будет пополнятся',
     preview: 'link from github and button',
     path: 'https://urgenmagger.github.io/myFolio/#/',
     linkButton: 'DEMO',
