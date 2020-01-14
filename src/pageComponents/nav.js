@@ -13,7 +13,7 @@ function nav() {
       <div className="container">
         <div className="container-grid">
           <div className="nav_img">
-            <Link to="/">
+            <Link to="/home">
               <Logo color="#a87952" />
             </Link>
           </div>
@@ -26,24 +26,6 @@ function nav() {
             <p>
               <em>Эй, сей веселей, вправо сей, влево сей… (АБС)</em>
             </p>
-            <ul className="nav-links">
-              <NavLink
-                to="/about"
-                exact
-                activeClassName="selected"
-                onlyActiveOnIndex
-                className="nav-link">
-                <strong>About</strong>
-              </NavLink>
-              <NavLink
-                to="/home"
-                exact
-                activeClassName="selected"
-                onlyActiveOnIndex
-                className="nav-link">
-                <strong>Home</strong>
-              </NavLink>
-            </ul>
             <ul className="nav_social">
               <li>
                 <a href="https://www.linkedin.com/in/evgen-megger-5aa783125/">
@@ -65,6 +47,24 @@ function nav() {
                   <TelegramIcon />
                 </a>
               </li>
+            </ul>
+            <ul className="nav-links">
+              <NavLink
+                to="/home"
+                exact
+                activeClassName="selected"
+                onlyActiveOnIndex
+                className="nav-link">
+                <strong>Home</strong>
+              </NavLink>
+              <NavLink
+                to="/about"
+                exact
+                activeClassName="selected"
+                onlyActiveOnIndex
+                className="nav-link">
+                <strong>About</strong>
+              </NavLink>
             </ul>
           </div>
         </div>
