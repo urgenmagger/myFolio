@@ -5,7 +5,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import Logo from '../img/logo.jsx';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 function nav() {
   return (
@@ -27,12 +27,22 @@ function nav() {
               <em>Эй, сей веселей, вправо сей, влево сей… (АБС)</em>
             </p>
             <ul className="nav-links">
-              <Link to="/about">
-                <li><strong>About</strong></li>
-              </Link>
-              <Link to="/home">
-                <li><strong>Home</strong></li>
-              </Link>
+              <NavLink
+                to="/about"
+                exact
+                activeClassName="selected"
+                onlyActiveOnIndex
+                className="nav-link">
+                <strong>About</strong>
+              </NavLink>
+              <NavLink
+                to="/home"
+                exact
+                activeClassName="selected"
+                onlyActiveOnIndex
+                className="nav-link">
+                <strong>Home</strong>
+              </NavLink>
             </ul>
             <ul className="nav_social">
               <li>

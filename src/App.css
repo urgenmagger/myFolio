@@ -41,10 +41,13 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-.nav-links a {
+.nav-link {
   list-style-type: none;
   text-decoration: none;
   color: #773f44;
+}
+.selected {
+  border-bottom: 2px solid #773f44;
 }
 .nav_social {
   display: flex;
@@ -62,7 +65,7 @@ nav {
 }
 .page {
   background: #48484b;
-  background: linear-gradient(180deg,#28302f 100px,#48484b 0);
+  background: linear-gradient(180deg, #28302f 100px, #48484b 0);
 }
 .container {
   max-width: 728px;
