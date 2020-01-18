@@ -53,7 +53,6 @@ function nav() {
                 to="/home"
                 exact
                 activeClassName="selected"
-                onlyActiveOnIndex
                 className="nav-link">
                 <strong>Home</strong>
               </NavLink>
@@ -61,7 +60,6 @@ function nav() {
                 to="/about"
                 exact
                 activeClassName="selected"
-                onlyActiveOnIndex
                 className="nav-link">
                 <strong>About</strong>
               </NavLink>

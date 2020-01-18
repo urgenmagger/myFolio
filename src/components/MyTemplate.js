@@ -7,6 +7,7 @@ function MyTemplate(props) {
   const handlerIcons = props.content.topIcons;
   const handlerTech = props.content.technologies;
 
+
   const icons = handlerIcons.map(i => (
     <li key={i.id}>
       <img className="top" src={i.icon} alt="icons" />
