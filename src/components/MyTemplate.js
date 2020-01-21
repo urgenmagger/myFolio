@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css'; //..level up
-//import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 
 function MyTemplate(props) {

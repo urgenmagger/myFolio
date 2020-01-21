@@ -4,6 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TelegramIcon from '@material-ui/icons/Telegram';
+import Chip from '@material-ui/core/Chip';
 import Logo from '../img/logo.jsx';
 import {Link, NavLink} from 'react-router-dom';
 
