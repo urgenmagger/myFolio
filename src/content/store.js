@@ -52,7 +52,7 @@ const store = {
         id: 3,
         rubric: 'SPA приложение',
         content:
-          'Web приложение для портфолио, динамическое использование карточек, проект будет пополнятся',
+          'Web приложение для портфолио, динамическое использование карточек, проект будет пополняться',
         preview: 'link from github and button',
         path: 'https://urgenmagger.github.io/myFolio/#/',
         linkButton: 'DEMO',
